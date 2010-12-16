@@ -10,5 +10,3 @@ puts "Status: #{resp.code}"
 puts "Version: #{resp.http_version}"
 puts "Headers: #{resp.to_hash.inspect}"
 puts "Body: #{resp.body[0..50]}"
-
-
